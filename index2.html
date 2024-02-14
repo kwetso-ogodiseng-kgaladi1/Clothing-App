@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+     <div class="nav-container">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"> </a>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#" class="active">Kobo ya Bakwena</a></li>
+                <li><a href="#category1" class="#category" >category</a></li>
+                <li><a href="#" class="#Products">Products</a></li>
+                <li><a href="#" class="#news">news</a></li>
+            </ul>
+        </div>
+     </div>
+    </header>
+    <div class="content">
+        <div class="content-box">
+            <h2>Get up to 45% <br> off new products</h2>
+            <label>The biggest sale of the year is at <span>Kobo ya Bakwena</span></label> <br>
+            <i class="fa-solid fa-arrow-right"><a href="#showmore" data-clothes-list>Shop Now </a></i>
+        </div>
+    </div>
+    <div class="category" id="category">
+        <div class="category-title">
+            <h2>Kobo ya Bakwena</h2>
+        </div>
+            <div class="category-box">
+            <div class="box Woman-box">
+                <div class="box-content b2">
+                    <h3 id="category1"> Most popular styles</h3>
+                     <label>Woman</label>
+                    <!-- <a href="#">Go Here</a> -->
+                    <button data-woman-go-here class="go-here-buttons">Go Here</button>
+                </div>
+                <img src="images/img-1.jpeg">
+            </div>
+            <div>
+                <div class="box man-box">
+                    <div class="box-content b2">
+                    <h3>Last Year's Trends</h3>
+                    <label>Man</label>
+                    <button data-men-go-here class="go-here-buttons">Go Here</button>
+            </div>
+            <img src="images/img-2.jpeg">
+        </div>
+            </div>
+        </div>
+    </div>
+    <div data-womens-section2 id="women-section"></div>
+    <div data-mens-section2 id="men-section"></div>
+</body>
+</html>
+
+
+
+
+
