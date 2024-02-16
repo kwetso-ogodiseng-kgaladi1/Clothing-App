@@ -3,3 +3,5 @@ Welcome to my Clothing App! This file serves as a guide to help you understand t
 
 Introduction
 My Clothing App is designed to provide users with a seamless shopping experience for all their fashion needs. Whether you're looking for the latest trends, everyday essentials, or something special for a special occasion, our app has got you covered.
+
+Here i plan to use only vanilla javascript
