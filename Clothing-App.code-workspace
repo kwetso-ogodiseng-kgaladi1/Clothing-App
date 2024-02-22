@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Clothing-App",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "D:/examples/clothingAPP/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Clothing-App"
+	}
+}
